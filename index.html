@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oil Drilling Charts</title>
+  <style>
+    /* Simple styling for the chart container */
+    #chartContainer {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+    }
+
+    svg {
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+  <h1>Oil Drilling Real-Time Charts</h1>
+  <div id="chartContainer"></div>
+  
+  <!-- Include the bundle.js (this is where your WebSocket and chart manager code is bundled) -->
+  <script src="dist/bundle.js"></script> <!-- Assuming you are using Webpack to bundle your JS -->
+</body>
+</html>
