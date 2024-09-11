@@ -10,6 +10,8 @@
       display: flex;
       justify-content: space-around;
       margin-top: 20px;
+      width: 100%;
+      height: 500px;  /* Set height explicitly */
     }
 
     svg {
@@ -22,6 +24,6 @@
   <div id="chartContainer"></div>
   
   <!-- Include the bundle.js (this is where your WebSocket and chart manager code is bundled) -->
-  <script src="dist/bundle.js"></script> <!-- Assuming you are using Webpack to bundle your JS -->
+  <script src="./index.js"></script> <!-- Assuming you are using Webpack to bundle your JS -->
 </body>
 </html>
